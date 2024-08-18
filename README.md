@@ -319,7 +319,7 @@ Figure 4 - Steps for lunching a new Frappe site
 ## Demo - Running Everything Together and Launching the Frappe Site
 We are ready! Here's a quick demo on how to launch your Frappe site and explore its key features:
 
-![Frappe Demo](/static/videos/Settup-frappe-dev-environment.mp4)
+![Frappe Demo](/static/videos/complete-demo-frappe-dev-environment.mp4)
 
 
 ## Summary
