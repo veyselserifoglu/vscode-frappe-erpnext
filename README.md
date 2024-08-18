@@ -11,7 +11,7 @@
 * [Writing a docker compose file for running Frappe, DB and Redis](#writing-a-docker-compose-file-for-frappe-db-and-redis). 
 * [Accessing the dev containers environment for frappe_web](#accessing-the-dev-containers-environment-for-frappe_web).
 * [Developing inside the dev container frappe_web](#developing-inside-the-dev-container-frappe_web).
-* [Running Everything Together and Launching the Frappe Site](#running-everything-together-and-launching-the-frappe-site). 
+* [Running Everything Together and Launching the Frappe Site](#demo---running-everything-together-and-launching-the-frappe-site). 
 * [Summary](#summary). 
 * [Resources](#resources).
  
@@ -316,7 +316,7 @@ Figure 4 - Steps for lunching a new Frappe site
 
     bench --site dev.localhost set-admin-password <your password goes here>
 
-## Running Everything Together and Launching the Frappe Site
+## Demo - Running Everything Together and Launching the Frappe Site
 We are ready! Here's a quick demo on how to launch your Frappe site and explore its key features:
 
 ![Frappe Demo](/static/videos/Settup-frappe-dev-environment.mp4)
