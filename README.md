@@ -319,9 +319,7 @@ Figure 4 - Steps for lunching a new Frappe site
 ## Demo - Running Everything Together and Launching the Frappe Site
 We are ready! Here's a quick demo on how to launch your Frappe site and explore its key features:
 
-<video controls="" width="800" height="500" muted="" loop="" autoplay="">
-<source src="https://github.com/Fissal/vscode-frappe-erpnext/raw/main/static/videos/complete-demo-frappe-dev-environment.mp4" type="video/mp4">
-</video>
+[![Watch the demo video](https://img.youtube.com/vi/HhvEuhKOmjs/0.jpg)](https://www.youtube.com/watch?v=HhvEuhKOmjs)
 
 ## Summary
 In this guide, we walked through the process of setting up a Frappe development environment inside a dev container. From configuring sites and creating a new one to installing apps and launching the web application, each step was covered to ensure a smooth development experience. While this tutorial doesn't delve deeply into Dockerization and the intricacies of Docker layers, it does provide insights into docker-compose and how to write and use it effectively.
