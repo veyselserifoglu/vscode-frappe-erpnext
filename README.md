@@ -11,7 +11,7 @@
 * [Writing a docker compose file for running Frappe, DB and Redis](#writing-a-docker-compose-file-for-frappe-db-and-redis). 
 * [Accessing the dev containers environment for frappe_web](#accessing-the-dev-containers-environment-for-frappe_web).
 * [Developing inside the dev container frappe_web](#developing-inside-the-dev-container-frappe_web).
-* [Running Everything Together and Launching the Frappe Site](#demo---running-everything-together-and-launching-the-frappe-site). 
+* [Demo - Running Everything Together and Launching the Frappe Site](#demo---running-everything-together-and-launching-the-frappe-site). 
 * [Summary](#summary). 
 * [Resources](#resources).
  
