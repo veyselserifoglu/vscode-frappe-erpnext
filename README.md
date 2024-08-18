@@ -1,4 +1,4 @@
-# A tutorial on how to set your Frappe + ERPnext dev environment like a senior.
+# Setting your Frappe + ERPnext apps with dev environment in vscode like a senior.
 
 # Table of contents
 
@@ -320,7 +320,7 @@ Figure 4 - Steps for lunching a new Frappe site
 ## Running Everything Together and Launching the Frappe Site
 We are ready! Here's a quick demo on how to launch your Frappe site and explore its key features:
 
-![Watch the video](/static/videos/Settup-frappe-dev-environment.mp4)
+![Frappe Demo](/static/videos/Settup-frappe-dev-environment.mp4)
 
 
 ## Summary
