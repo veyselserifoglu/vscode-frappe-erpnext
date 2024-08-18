@@ -251,24 +251,23 @@ we need to configure redis urls and database host name according to the containe
         "webserver_port": 8000
     }
 
-1. `background_workers`: Specifies the number of background workers as 1, which handle asynchronous tasks such as sending emails or running scheduled jobs.
+* `background_workers`: Specifies the number of background workers as 1, which handle asynchronous tasks such as sending emails or running scheduled jobs.
 
-2. `db_host`: Defines frappe_db as the hostname for the database server that Frappe connects to, typically corresponding to the MariaDB container.
+* `db_host`: Defines frappe_db as the hostname for the database server that Frappe connects to, typically corresponding to the MariaDB container.
 
-3. `live_reload`: Enables live_reload, allowing the Frappe web server to automatically reload when code changes are detected, facilitating quicker development.
+* `live_reload`: Enables live_reload, allowing the Frappe web server to automatically reload when code changes are detected, facilitating quicker development.
 
-4. `redis_cachePoints` to redis://frappe_redis:6379 for Redis caching, improving performance by storing frequently accessed data in memory.
+* `redis_cachePoints` to redis://frappe_redis:6379 for Redis caching, improving performance by storing frequently accessed data in memory.
 
-5. `redis_queue`: Sets the Redis server address at redis://frappe_redis:6379 for managing task queues, ensuring tasks are processed in an orderly manner.
+* `redis_queue`: Sets the Redis server address at redis://frappe_redis:6379 for managing task queues, ensuring tasks are processed in an orderly manner.
 
-6. `redis_socketio`: Uses redis://frappe_redis:6379 for Socket.IO communications, which handles real-time updates and notifications.
+* `redis_socketio`: Uses redis://frappe_redis:6379 for Socket.IO communications, which handles real-time updates and notifications.
 
-7. `socketio_port`: Specifies the socketio_port as 9000, the port where Socket.IO listens for real-time communication.
+* `socketio_port`: Specifies the socketio_port as 9000, the port where Socket.IO listens for real-time communication.
 
-8. `webserver_port`: Defines the webserver_port as 8000, which is the port where the Frappe web server is accessible.
+* `webserver_port`: Defines the webserver_port as 8000, which is the port where the Frappe web server is accessible.
 
 ### Step 2: Create a New Site
-
 
     bench new-site "dev.localhost" --mariadb-root-password 123 --admin-password 123 --no-mariadb-socket && \
     bench --site "dev.localhost" set-config developer_mode 1 && \
