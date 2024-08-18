@@ -320,7 +320,7 @@ Figure 4 - Steps for lunching a new Frappe site
 We are ready! Here's a quick demo on how to launch your Frappe site and explore its key features:
 
 <video controls="" width="800" height="500" muted="" loop="" autoplay="">
-<source src="https://github.com/Fissal/vscode-frappe-erpnext/raw/dev/static/videos/complete-demo-frappe-dev-environment.mp4" type="video/mp4">
+<source src="https://github.com/Fissal/vscode-frappe-erpnext/raw/main/static/videos/complete-demo-frappe-dev-environment.mp4" type="video/mp4">
 </video>
 
 ## Summary
